@@ -1,3 +1,19 @@
 body{
     background-color: black;
 }
+
+h1{
+    color: wheat;
+     
+}
+div{
+    color: antiquewhite;
+}
+img{
+    
+    width: 800px;
+    height: 500px;
+}
+.color{
+    color: antiquewhite;
+}
