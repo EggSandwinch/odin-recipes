@@ -1,9 +1,15 @@
 body{
-    background-color: black;
+    background-color: rgb(223, 179, 121);
+    background-image: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -1px -1200px;
+    
 }
 
 h1{
     color: wheat;
+    text-align: center;
      
 }
 div{
@@ -11,9 +17,41 @@ div{
 }
 img{
     
-    width: 800px;
+    width: 500px;
     height: 500px;
 }
 .color{
     color: antiquewhite;
 }
+
+span{
+    color: antiquewhite;
+}
+.adjust{
+    height:500px;
+    width:500px;
+    margin-bottom: 1px;
+   
+}
+.child-container{
+    display: inline-block; 
+    margin:10px
+}
+.parent-container{
+    display:block;
+    text-align: center;
+}
+.link{
+    font-size: 40px;
+    margin-top: 1px;
+}
+
+a{
+    color:rgb(245, 165, 17);
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    color:wheat;
+}
+
